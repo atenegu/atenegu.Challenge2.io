@@ -26,7 +26,7 @@ header {
   /*  animation: move 15s linear;*/
   animation-play-state: running;
 /*  -webkit-animation: move 5s infinite;*/
-  animation: move 5s infinite;
+  animation: move 10s infinite;
 /*  z-index: 10;*/
 /*  visibility: hidden;*/
 }
@@ -34,8 +34,8 @@ header {
 
 @keyframes move {
   0%  {transform: scale(0.2); color:#BBBBBB;}
-  50%  {transform: scale(1.7); color:#5E5E5E;}
-  100% {transform: scale(0); color:#ffffff;}
+  50%  {transform: scale(1.7); color:#ffffff;}
+  100% {transform: scale(0); color:#000000;}
 }
 
 
